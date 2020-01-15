@@ -16,6 +16,11 @@ provisioner:
     name: ansible-lint
   playbooks:
     converge: ../resources/playbook.yml
+  inventory:
+    host_vars:
+      ice36all:
+        ice_install_devel: true
+        ice_install_python: true
 scenario:
   name: ice36all
 verifier:

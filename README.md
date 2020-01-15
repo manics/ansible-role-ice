@@ -13,8 +13,8 @@ Role Variables
 --------------
 
 Optional (expert users only):
-- `ice_install_devel`: Install Ice development packages, default `True`
-- `ice_install_python`: Install Ice Python globally, default `True`, ignored on Ubuntu (always `False`)
+- `ice_install_devel`: Install Ice development packages, default `False`
+- `ice_install_python`: Install Ice Python globally, default `False`
 - `ice_python_wheel`: URL to a python wheel package to be installed, ignored on Ubuntu
   You can use this to provide a precompiled ice-py package for 3.6 as an alternative to automatically compiling from the source package.
 - `ice_binaries_symlink_dest`: Symlink the Ice binaries required by OMERO into this directory e.g. `/usr/local/bin` (Ubuntu only, must exist, if empty don't create symlinks)

@@ -19,7 +19,6 @@ provisioner:
   inventory:
     host_vars:
       ice36-ubuntu1804:
-        ice_install_devel: false
         ice_binaries_symlink_dest: /usr/local/bin
 scenario:
   name: ice36-ubuntu1804

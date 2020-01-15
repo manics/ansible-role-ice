@@ -1,8 +1,8 @@
 ---
 # defaults file for ice
 
-ice_install_devel: true
-ice_install_python: true
+ice_install_devel: false
+ice_install_python: false
 ice_python_wheel: ''
 
 # Symlink the main ice binaries into this directory
